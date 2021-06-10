@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         appBarTheme: AppBarTheme(
+          centerTitle: true,
           backgroundColor: AppColors.mainDarkBlue,
         ),
         bottomNavigationBarTheme: BottomNavigationBarThemeData(
